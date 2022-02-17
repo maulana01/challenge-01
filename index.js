@@ -15,7 +15,7 @@ const question = (question) => {
   });
 };
 
-const main = async () => {
+const kalkulasi = async () => {
   const operasi = await question('Masukkan Operasi Yang diinginkan: ');
   let angka1, angka2, sisi, rusuk, r, t, result;
 
@@ -72,4 +72,4 @@ const main = async () => {
   rl.close();
 };
 
-main();
+kalkulasi();
